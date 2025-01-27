@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "manifest_version": 3,
   "description": "Changes text to be dyslexic friendly",
-  "permissions": ["storage", "tabs"],
+  "permissions": ["storage", "activeTab"], 
   "background": {
     "service_worker": "background.js"
   },
